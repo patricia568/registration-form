@@ -6,7 +6,36 @@ h1 {
   border-bottom: 1px solid #000;
 }
 
-button {
+.btn {
   background-color: #000;
   color: #fff;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .name {
+    display: inline-block;
+    width: 49%;
+  }
+
+  .age {
+    display: inline-block;
+    width: 49%;
+    margin-left: 11px;
+  }
+
+  .email {
+    display: inline-block;
+    width: 49%;
+  }
+
+  .fitness {
+    display: inline-block;
+    width: 49%;
+    margin-left: 11px;
+  }
 }
