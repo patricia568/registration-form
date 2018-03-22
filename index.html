@@ -16,22 +16,39 @@
       <h1>Want to go to Mars?</h1>
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
       <h2>Personal details</h2>
-      Name
-      Age
-      Email
-      Physical fitness
-      - Super-human
-      - Fit as a fiddle
-      - Not terribly strong
-      - A little couch-potato-y
-      Address
-
+      <form method="POST" action="https://formspree.io/dano0015@algonquinlive.com">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input id="number" type="number" required>
+        </div>
+        <div>
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        </div>
+        <div>
+          <label for="subject">Physical Fitness</label>
+          <select id="subject" name="subject">
+            <option>Super-human</option>
+            <option>Sit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+        <div>
+          <label for="address">Address</label>
+          <input id="address" name="address">
+        </div>
       Mission statement
       Why do you want to go to Mars?
 
       Register for the trip!
 
       Request to join the mission
+      </form>
     </div>
   </section>
 </body>
