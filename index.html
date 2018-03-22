@@ -22,8 +22,8 @@
           <input id="name" name="name" required>
         </div>
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 age kilo push">
-          <label for="age">Age</label>
-          <input id="number" type="hidden">
+          <label for="number">Age</label>
+          <input id="number" type="number">
         </div>
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 email kilo push">
           <label for="email">Email</label>
@@ -42,14 +42,16 @@
           <label for="address">Address</label>
           <textarea id="address" name="address" required></textarea>
         </div>
-        <h2 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 mega italic">Mission statement</h2>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 details kilo push">
-          <label for="details">Why do you want to go to Mars?</label>
-          <textarea id="details" name="message" placeholder="Request to join the mission" required></textarea>
-        </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 push-2 text-center">
-          <button class="btn btn-light mega" type="submit">Register for the trip!</button>
-        </div>
+        <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+          <legend class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 mega italic">Mission statement</legend>
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 details kilo push">
+            <label for="details">Why do you want to go to Mars?</label>
+            <textarea id="details" name="message" placeholder="Request to join the mission" required></textarea>
+          </div>
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 push-2 text-center">
+            <button class="btn btn-light mega" type="submit">Register for the trip!</button>
+          </div>
+        </fieldset>
       </form>
     </div>
   </section>
