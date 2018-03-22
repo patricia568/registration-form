@@ -1,5 +1,5 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 h1 {
@@ -38,4 +38,5 @@ section {
     width: 49%;
     margin-left: 11px;
   }
+
 }
