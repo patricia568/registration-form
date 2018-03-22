@@ -12,24 +12,24 @@
 </head>
 <body>
   <section>
-    <div class="gutter max-length pad-t-2">
-      <h1>Want to go to Mars?</h1>
-      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <h2 class="mega italic">Personal details</h2>
-      <form method="POST" action="https://formspree.io/dano0015@algonquinlive.com">
-        <div class="name kilo push">
+    <div class="grid gutter max-length pad-t-2">
+      <h1 class="unit">Want to go to Mars?</h1>
+      <p class="unit mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <h2 class="unit mega italic">Personal details</h2>
+      <form class="grid" method="POST" action="https://formspree.io/dano0015@algonquinlive.com">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 name kilo push">
           <label for="name">Name</label>
           <input id="name" name="name" required>
         </div>
-        <div class="age kilo push">
-          <label for="age">Age</label>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 age kilo push">
+          <label for="number">Age</label>
           <input id="number" type="number" required>
         </div>
-        <div class="email kilo push">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 email kilo push">
           <label for="email">Your email</label>
           <input id="email" type="email" placeholder="me@me.com" name="email" required>
         </div>
-        <div class="fitness kilo push">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 fitness kilo push">
           <label for="subject">Physical fitness</label>
           <select id="subject" name="subject">
             <option>Super-human</option>
@@ -38,16 +38,16 @@
             <option>A little couch-potato-y</option>
           </select>
         </div>
-        <div class="address kilo push">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 address kilo push">
           <label for="address">Address</label>
-          <textarea id="address" name="address" required></textarea>
+          <textarea id="address" type="hidden" name="address" required></textarea>
         </div>
-        <h2 class="mega italic">Mission statement</h2>
-        <div class="details kilo push">
+        <h2 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 mega italic">Mission statement</h2>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 details kilo push">
           <label for="details">Why do you want to go to Mars?</label>
           <textarea id="details" name="message" required></textarea>
         </div>
-        <div class="push-2 text-center">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 push-2 text-center">
           <button class="btn btn-light mega" type="submit">Register for the trip!</button>
         </div>
       </form>
