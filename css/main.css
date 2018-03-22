@@ -13,29 +13,34 @@ h1 {
 
 section {
   padding-top: 3rem;
+  background-color: #fff;
+}
+
+body{
+  background-color: #f2f2f2;
 }
 
 @media only screen and (min-width: 60em) {
 
   .name {
     display: inline-block;
-    width: 49%;
+    width: 48.5%;
   }
 
   .age {
     display: inline-block;
-    width: 49%;
+    width: 48.5%;
     margin-left: 11px;
   }
 
   .email {
     display: inline-block;
-    width: 49%;
+    width: 48.5%;
   }
 
   .fitness {
     display: inline-block;
-    width: 49%;
+    width: 48.5%;
     margin-left: 11px;
   }
 
